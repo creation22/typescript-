@@ -1,8 +1,6 @@
-function greet(person : string):string{
-    return `hello ${person}` ; 
+function greet(name : string ) : string {
+    return `hello ${name} `  ; 
 }
-console.log(greet("srajan")) ; 
-
-const username : string = "chai or script";
-
-console.log(greet(username)) ;
+console.log(greet("world")) ; 
+const username: string = "srajan" ; 
+console.log(greet(username))  ; 
